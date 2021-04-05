@@ -1,0 +1,17 @@
+*/10 * * * * source /data/ETL/APP/bin/A_EXEC.sh A_KIMS_PGSQL2ES_DA
+0 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS_PGSQL2ES_DA
+#
+*/10 * * * * source /data/ETL/APP/bin/A_EXEC.sh A_KIMS_PGSQL-DA2DL_DA
+50 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS_PGSQL-DA2DL_DA
+#
+*/10 * * * * source /data/ETL/APP/bin/A_EXEC.sh A_KIMS_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.HY_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.KSMC_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.BHC_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.SKLM_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.BRMH_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.KIMSKU_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.KIMSO_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.KIMSK_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.KIMSV_FILE2DB_DA
+40 * * * * source /data/ETL/APP/bin/W_EXEC.sh W_KIMS.KIMSC_FILE2DB_DA

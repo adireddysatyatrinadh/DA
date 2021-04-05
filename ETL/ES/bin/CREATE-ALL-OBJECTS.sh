@@ -1,0 +1,5 @@
+HOST=localhost
+PORT=9200
+
+source CREATE-ALL-INDEXES.sh $HOST $PORT
+

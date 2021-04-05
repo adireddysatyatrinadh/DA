@@ -1,0 +1,190 @@
+{
+"settings":{
+  "number_of_shards": 2,
+  "number_of_replicas": 1
+},
+"mappings":{
+  "properties": {
+    "er no": {
+      "type": "keyword"
+    },
+    "er dt": {
+      "type": "date"
+    },
+    "trn source cd": {
+      "type": "keyword"
+    },
+    "trn source name": {
+      "type": "keyword"
+    },
+    "er case type cd": {
+      "type": "keyword"
+    },
+    "er case type name": {
+      "type": "keyword"
+    },
+    "rec type cd": {
+      "type": "keyword"
+    },
+    "rec type name": {
+      "type": "keyword"
+    },
+    "dw row id": {
+      "type": "keyword"
+    },
+    "admn no": {
+      "type": "keyword"
+    },
+    "admn dt": {
+      "type": "date"
+    },
+    "umr no": {
+      "type": "keyword"
+    },
+    "patient name": {
+      "type": "keyword"
+    },
+    "gender cd": {
+      "type": "keyword"
+    },
+    "gender name": {
+      "type": "keyword"
+    },
+    "age": {
+      "type": "keyword"
+    },
+    "reg no": {
+      "type": "keyword"
+    },
+    "reg dt": {
+      "type": "date"
+    },
+    "area cd": {
+      "type": "keyword"
+    },
+    "area name": {
+      "type": "keyword"
+    },
+    "city cd": {
+      "type": "keyword"
+    },
+    "city name": {
+      "type": "keyword"
+    },
+    "district cd": {
+      "type": "keyword"
+    },
+    "district name": {
+      "type": "keyword"
+    },
+    "state cd": {
+      "type": "keyword"
+    },
+    "state name": {
+      "type": "keyword"
+    },
+    "country cd": {
+      "type": "keyword"
+    },
+    "country name": {
+      "type": "keyword"
+    },
+    "company cd": {
+      "type": "keyword"
+    },
+    "company name": {
+      "type": "keyword"
+    },
+    "company type cd": {
+      "type": "keyword"
+    },
+    "company type name": {
+      "type": "keyword"
+    },
+    "admission type cd": {
+      "type": "keyword"
+    },
+    "admission type name": {
+      "type": "keyword"
+    },
+    "department cd": {
+      "type": "keyword"
+    },
+    "department name": {
+      "type": "keyword"
+    },
+    "doctor cd": {
+      "type": "keyword"
+    },
+    "doctor name": {
+      "type": "keyword"
+    },
+    "ward cd": {
+      "type": "keyword"
+    },
+    "ward name": {
+      "type": "keyword"
+    },
+    "room cd": {
+      "type": "keyword"
+    },
+    "room name": {
+      "type": "keyword"
+    },
+    "loc cd": {
+      "type": "keyword"
+    },
+    "loc name": {
+      "type": "keyword"
+    },
+    "org cd": {
+      "type": "keyword"
+    },
+    "org name": {
+      "type": "keyword"
+    },
+    "grp cd": {
+      "type": "keyword"
+    },
+    "grp name": {
+      "type": "keyword"
+    },
+    "dw facility cd":{
+        "type":"keyword"
+    },
+    "dw job run no":{
+        "type":"keyword"
+    },
+    "dw last updated dt": {
+      "type": "date"
+    },
+    "site cd": {
+      "type": "keyword"
+    },
+    "site name": {
+      "type": "keyword"
+    },
+    "dob": {
+      "type": "keyword"
+    },
+    "org short name": {
+      "type": "keyword"
+    },
+    "loc short name": {
+      "type": "keyword"
+    },
+    "grp short name": {
+      "type": "keyword"
+    },
+    "age in days": {
+      "type": "keyword"
+    },
+    "age in months": {
+      "type": "keyword"
+    },
+    "age in years": {
+      "type": "keyword"
+    }
+  }
+}
+}

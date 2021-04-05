@@ -1,0 +1,13 @@
+# APP
+/ETL/APP/log
+/ETL/APP/input
+/ETL/APP/output
+/ETL/APP/web/web-api
+/ETL/APP/source/__pycache__
+/ETL/APP/web/source/__pycache__
+
+# ES
+/ETL/ES/log
+
+# DB
+

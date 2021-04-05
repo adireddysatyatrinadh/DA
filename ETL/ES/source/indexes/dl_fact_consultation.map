@@ -1,0 +1,196 @@
+{
+"settings":{
+  "number_of_shards": 2,
+  "number_of_replicas": 1
+},
+"mappings":{
+  "properties": {
+    "dw row id": {
+      "type": "keyword"
+    },
+    "umr no": {
+      "type": "keyword"
+    },
+    "patient name": {
+      "type": "keyword"
+    },
+    "gender cd": {
+      "type": "keyword"
+    },
+    "gender name": {
+      "type": "keyword"
+    },
+    "dob": {
+      "type": "keyword"
+    },
+    "age": {
+      "type": "keyword"
+    },
+    "area cd": {
+      "type": "keyword"
+    },
+    "area name": {
+      "type": "keyword"
+    },
+    "city cd": {
+      "type": "keyword"
+    },
+    "city name": {
+      "type": "keyword"
+    },
+    "district cd": {
+      "type": "keyword"
+    },
+    "district name": {
+      "type": "keyword"
+    },
+    "state cd": {
+      "type": "keyword"
+    },
+    "state name": {
+      "type": "keyword"
+    },
+    "country cd": {
+      "type": "keyword"
+    },
+    "country name": {
+      "type": "keyword"
+    },
+    "bill no": {
+      "type": "keyword"
+    },
+    "bill dt": {
+      "type": "date"
+    },
+    "tran no": {
+      "type": "keyword"
+    },
+    "tran dt": {
+      "type": "date"
+    },
+    "tran type": {
+      "type": "keyword"
+    },
+    "bill type cd": {
+      "type": "keyword"
+    },
+    "bill type name": {
+      "type": "keyword"
+    },
+    "doctor cd": {
+      "type": "keyword"
+    },
+    "doctor name": {
+      "type": "keyword"
+    },
+    "speciality cd": {
+      "type": "keyword"
+    },
+    "speciality name": {
+      "type": "keyword"
+    },
+    "company cd": {
+      "type": "keyword"
+    },
+    "company name": {
+      "type": "keyword"
+    },
+    "company type cd": {
+      "type": "keyword"
+    },
+    "company type name": {
+      "type": "keyword"
+    },
+    "rec type cd": {
+      "type": "keyword"
+    },
+    "rec type name": {
+      "type": "keyword"
+    },
+    "consultation type cd": {
+      "type": "keyword"
+    },
+    "consultation type name": {
+      "type": "keyword"
+    },
+    "appointment type cd": {
+      "type": "keyword"
+    },
+    "appointment type name": {
+      "type": "keyword"
+    },
+    "service cd": {
+      "type": "keyword"
+    },
+    "service name": {
+      "type": "keyword"
+    },
+    "quantity": {
+      "type": "keyword"
+    },
+    "rate": {
+      "type": "keyword"
+    },
+    "amount": {
+      "type": "keyword"
+    },
+    "discount amount": {
+      "type": "keyword"
+    },
+    "receipt amount": {
+      "type": "keyword"
+    },
+    "loc cd": {
+      "type": "keyword"
+    },
+    "loc name": {
+      "type": "keyword"
+    },
+    "org cd": {
+      "type": "keyword"
+    },
+    "org name": {
+      "type": "keyword"
+    },
+    "grp cd": {
+      "type": "keyword"
+    },
+    "grp name": {
+      "type": "keyword"
+    },
+    "dw facility cd": {
+      "type": "keyword"
+    },
+    "dw job run no": {
+      "type": "keyword"
+    },
+    "dw last updated dt": {
+      "type": "date"
+    },
+    "site cd": {
+      "type": "keyword"
+    },
+    "site name": {
+      "type": "keyword"
+    },
+    "loc short name": {
+      "type": "keyword"
+    },
+    "org short name": {
+      "type": "keyword"
+    },
+    "grp short name": {
+      "type": "keyword"
+    },
+    "age in days": {
+      "type": "keyword"
+    },
+    "age in months": {
+      "type": "keyword"
+    },
+    "age in years": {
+      "type": "keyword"
+    }
+  }
+}
+}

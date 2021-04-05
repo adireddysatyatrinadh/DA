@@ -1,0 +1,126 @@
+<ROWSET>
+  <TABLE NAME="dl_fact_registration" INDEX_NAME="dl_fact_registration" />
+<ES> 
+ <COLUMNS>
+   <COLUMN NAME="dw row id" DATA_TYPE="keyword"/>
+   <COLUMN NAME="umr no" DATA_TYPE="keyword"/>
+   <COLUMN NAME="patient name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="gender cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="gender name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="dob" DATA_TYPE="date"/>
+   <COLUMN NAME="age" DATA_TYPE="keyword"/>
+   <COLUMN NAME="reg no" DATA_TYPE="keyword"/>
+   <COLUMN NAME="reg dt" DATA_TYPE="date"/>
+   <COLUMN NAME="referal source cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="referal source name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="area cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="area name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="city cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="city name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="district cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="district name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="state cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="state name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="country cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="country name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="nationality cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="nationality name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="company cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="company name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="company type cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="company type name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="expiry dt" DATA_TYPE="date"/>
+   <COLUMN NAME="is expired" DATA_TYPE="keyword"/>
+   <COLUMN NAME="trn source cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="trn source name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="rec type cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="rec type name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="record status" DATA_TYPE="keyword"/>
+   <COLUMN NAME="loc cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="loc name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="org cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="org name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="grp cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="grp name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="dw facility cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="dw job run no" DATA_TYPE="keyword"/>
+   <COLUMN NAME="dw last updated dt" DATA_TYPE="date"/>
+   <COLUMN NAME="loc short name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="org short name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="grp short name" DATA_TYPE="keyword"/>
+   <COLUMN NAME="age in days" DATA_TYPE="long"/>
+   <COLUMN NAME="age in months" DATA_TYPE="long"/>
+   <COLUMN NAME="age in years" DATA_TYPE="long"/>
+</COLUMNS>
+
+<ID_COLUMN>
+<COLUMN NAME="dw_row_id"  DATA_TYPE="string"/>
+</ID_COLUMN>
+
+ </ES>
+
+ <DB>
+  <COLUMNS>
+  <COLUMN NAME="dw_row_id" DATA_TYPE="string"/>
+   <COLUMN NAME="umr_no" DATA_TYPE="string"/>
+   <COLUMN NAME="patient_name" DATA_TYPE="string"/>
+   <COLUMN NAME="gender_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="gender_name" DATA_TYPE="string"/>
+   <COLUMN NAME="dob" DATA_TYPE="date"/>
+   <COLUMN NAME="age" DATA_TYPE="string"/>
+   <COLUMN NAME="reg_no" DATA_TYPE="string"/>
+   <COLUMN NAME="reg_dt" DATA_TYPE="date"/>
+   <COLUMN NAME="referal_source_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="referal_source_name" DATA_TYPE="string"/>
+   <COLUMN NAME="area_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="area_name" DATA_TYPE="string"/>
+   <COLUMN NAME="city_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="city_name" DATA_TYPE="string"/>
+   <COLUMN NAME="district_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="district_name" DATA_TYPE="string"/>
+   <COLUMN NAME="state_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="state_name" DATA_TYPE="string"/>
+   <COLUMN NAME="country_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="country_name" DATA_TYPE="string"/>
+   <COLUMN NAME="nationality_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="nationality_name" DATA_TYPE="string"/>
+   <COLUMN NAME="company_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="company_name" DATA_TYPE="string"/>
+   <COLUMN NAME="company_type_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="company_type_name" DATA_TYPE="string"/>
+   <COLUMN NAME="expiry_dt" DATA_TYPE="date"/>
+   <COLUMN NAME="is_expired" DATA_TYPE="string"/>
+   <COLUMN NAME="trn_source_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="trn_source_name" DATA_TYPE="string"/>
+   <COLUMN NAME="rec_type_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="rec_type_name" DATA_TYPE="string"/>
+   <COLUMN NAME="record_status" DATA_TYPE="string"/>
+   <COLUMN NAME="loc_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="loc_name" DATA_TYPE="string"/>
+   <COLUMN NAME="org_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="org_name" DATA_TYPE="string"/>
+   <COLUMN NAME="grp_cd" DATA_TYPE="string"/>
+   <COLUMN NAME="grp_name" DATA_TYPE="string"/>
+   <COLUMN NAME="dw_facility_cd" DATA_TYPE="keyword"/>
+   <COLUMN NAME="dw_job_run_no" DATA_TYPE="keyword"/>
+   <COLUMN NAME="dw_last_updated_dt" DATA_TYPE="date"/>
+   <COLUMN NAME="loc_short_name" DATA_TYPE="string"/>
+   <COLUMN NAME="org_short_name" DATA_TYPE="string"/>
+   <COLUMN NAME="grp_short_name" DATA_TYPE="string"/>
+   <COLUMN NAME="age_in_days" DATA_TYPE="long"/>
+   <COLUMN NAME="age_in_months" DATA_TYPE="long"/>
+   <COLUMN NAME="age_in_years" DATA_TYPE="long"/>
+   </COLUMNS>
+
+<KEY_COLUMNS>
+<COLUMN NAME="dw_row_id"  DATA_TYPE="string"/>
+</KEY_COLUMNS>
+<FILTER_COLUMNS>
+<COLUMN NAME="dw_last_updated_dt" DATA_TYPE="date"/>
+<COLUMN NAME="LOC_CD" DATA_TYPE="string"/>
+</FILTER_COLUMNS>
+
+</DB> 
+
+</ROWSET>
+ 
