@@ -1,0 +1,1 @@
+Python ..\source\WorkerCLI.py %1
