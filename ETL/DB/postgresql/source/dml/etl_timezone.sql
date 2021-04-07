@@ -1,0 +1,21 @@
+
+INSERT INTO etl_timezone (timezone_cd,
+                          timezone_name,
+                          utc_offset,
+                          utc_minutes,
+                          record_status,
+                          create_by,
+                          create_dt,
+                          loc_cd,
+                          org_cd,
+                          grp_cd)
+     VALUES ('UTC',
+             'Universal Time Coordinated',
+             '-05:30:00',
+              -330,
+             'A',
+             'etl',
+             TO_TIMESTAMP ('2021-01-01 00:00:00', 'yyyy-MM-dd hh24:mi:ss FF'),
+             0,
+             0,
+             0)

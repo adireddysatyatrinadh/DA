@@ -1,0 +1,14 @@
+CREATE TABLE ETL_JOB_PROGRAM(
+	JOB_PROGRAM_CD  varchar(256)NOT NULL,
+	JOB_PROGRAM_NAME  varchar(256)NULL,
+	JOB_PROGRAM_DESC  varchar(512) NULL,
+	RECORD_STATUS  varchar(1) NULL,
+	CREATE_BY  varchar(256)NULL,
+	CREATE_DT timestamp NULL,
+	MODIFY_BY  varchar(256)NULL,
+	MODIFY_DT timestamp NULL,
+	ORG_CD  varchar(16)NULL,
+	LOC_CD  varchar(16)NULL,
+	GRP_CD  varchar(16)NOT NULL
+
+);

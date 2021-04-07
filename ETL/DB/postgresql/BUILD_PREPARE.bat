@@ -1,0 +1,27 @@
+REM ***********************************************************************************************************
+REM "IF DONT WANT TO EXECUTE ANY BATCH FILE THEN PREFIX BATCH FILE CALL WITH <REM>"
+
+REM For <FULL> Build, Specify LASTBUILDDATETIME=1947-08-15-00:00:00:000
+REM For <Incremental> Build, Specify LASTBUILDDATETIME= <Last Build Run Date Time>
+
+REM Modify the following variables as per requirement
+
+SET CLIENT_NAME=ALL
+SET LASTBUILDDATETIME=2019-12-01-16:55:00:000
+
+REM ***********************************************************************************************************
+
+
+SET PRODUCT_NAME=SOURCE
+.\BIN\Build -bdf .\%PRODUCT_NAME%\PREBUILD\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\SCHEMA\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\CONSTRAINTS\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\DML\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\FUNCTIONS\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\INDEXES\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\SEQUENCES\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\TABLES\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\FOREIGN_TABLES\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\TRIGGERS\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\VIEWS\ %LASTBUILDDATETIME%
+.\BIN\Build -bdf .\%PRODUCT_NAME%\POSTBUILD\ %LASTBUILDDATETIME%
