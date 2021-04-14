@@ -1,0 +1,1 @@
+CREATE INDEX idx_da_ward ON public.da_ward USING btree (ward_cd, dw_facility_cd);

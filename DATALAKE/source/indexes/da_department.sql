@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX uk_da_department ON public.da_department USING btree (dw_row_id, dw_facility_cd);

@@ -6,6 +6,8 @@
 /ETL/APP/source/__pycache__
 /ETL/APP/web/source/__pycache__
 
+/ETL/APP/source/.idea
+
 /ETL/APP/config/ETL.config
 # ES
 /ETL/ES/log

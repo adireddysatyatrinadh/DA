@@ -1,0 +1,1 @@
+CREATE INDEX idx_da_room ON public.da_room USING btree (room_cd, ward_cd, dw_facility_cd);
